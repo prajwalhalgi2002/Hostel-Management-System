@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hostel Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🏨 Hostel Management System</h1>
+
+  <div class="container">
+    <h2>Room Booking Form</h2>
+    <form id="bookingForm">
+      <input type="text" id="name" placeholder="Student Name" required>
+      <input type="text" id="room" placeholder="Room Number" required>
+      <select id="bed">
+        <option>Bed 1</option>
+        <option>Bed 2</option>
+        <option>Bed 3</option>
+      </select>
+      <button type="submit">Book Room</button>
+    </form>
+
+    <h2>Room Status</h2>
+    <ul id="roomList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
