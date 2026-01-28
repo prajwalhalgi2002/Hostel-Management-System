@@ -14,3 +14,7 @@ A web-based Hostel Management System developed during internship at Saraswati Te
 - JavaScript
 
 This project was developed as part of academic internship to understand frontend development and system design.
+
+## Project Report
+[Download Report](Internship_Report.pdf)
+
